@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/ecom-application/src/main/java/com/app/ecom/controller/UserController.java;C:/Users/user/Desktop/ecom-application/ecom-application/src/main/java/com/app/ecom/model/User.java;C:/Users/user/Desktop/ecom-application/ecom-application/src/main/java/com/app/ecom/repository/UserRepository.java;C:/Users/user/Desktop/ecom-application/ecom-application/src/main/java/com/app/ecom/service/UserService.java;C:/Users/user/Desktop/ecom-application/ecom-application/src/main/java/com/app/ecom/EcomApplication.java;C:/Users/user/Desktop/ecom-application/ecom-application/src/test/java/com/app/ecom/EcomApplicationTests.java" />
+  </component>
+</project>
