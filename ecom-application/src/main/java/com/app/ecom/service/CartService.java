@@ -80,4 +80,14 @@ public class CartService {
                 .map(cartItemRepsitory::findByUser)
                 .orElseGet(List::of);
     }
+
+    public void clearCart(String userId) {
+//        userRepository.findById(Long.valueOf(userId))
+//                .ifPresent(user -> {
+//                    List<CartItem> cartItems = cartItemRepsitory.findByUser(user);
+//                    cartItemRepsitory.deleteAll(cartItems);
+//                });
+        userRepository.findById(Long.valueOf(userId))
+                .ifPresent(cartItemRepsitory::deleteByUser);
+    }
 }
